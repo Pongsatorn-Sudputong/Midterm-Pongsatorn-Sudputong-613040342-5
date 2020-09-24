@@ -1,0 +1,83 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+      background-color: black;
+  }
+
+
+  .topic {
+      text-align: center;
+  }
+
+  .index-quote > q {
+      color: brown;
+  }
+
+  .index-quote > p {
+      color: hotpink
+  }
+
+  table{
+      border-collapse: collapse;
+      width: 100%;
+
+  }
+
+  table, th, td {
+      border: 1px solid black;
+      padding: 20px;
+  }
+
+  .thai-books-table > th {
+    border: 1px solid black;
+  }
+
+  .thai-books-table > td {
+    border: 1px solid black;
+  }
+
+  .text-right {
+      text-align: right;
+  }
+
+  .head-row {
+      background-color: #55eecc;
+  }
+
+  .odd-row {
+      background-color: #cccccc;
+  }
+
+  .thai-books-table > tbody > tr :nth-child(1) {
+      text-align: left;
+  }
+
+  .thai-books-table > tbody > tr :nth-child(2) {
+      text-align: left;
+  }
+
+  .thai-books-table > tbody > tr :nth-child(3) {
+      text-align: left;
+  }
+
+  li.link-control {
+      display: inline;
+  }
